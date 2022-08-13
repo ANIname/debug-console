@@ -1,0 +1,39 @@
+{
+  "name": "debug-console",
+  "description": "Log message if debug enabled",
+  "version": "1.0.0",
+  "keywords": [
+    "debug",
+    "console",
+    "message",
+    "log"
+  ],
+  "main": "build",
+  "scripts": {
+    "build": "rimraf ./build && tsc"
+  },
+  "prepublish": "npm run build",
+  "engines": {
+    "node": ">=16.10.0"
+  },
+  "author": {
+    "name": "KiiDii",
+    "email": "kiidii@aniname.com",
+    "url": "https://github.com/KiiDii"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ANIname/debug-console.git"
+  },
+  "bugs": {
+    "email": "7devs7@gmail.com",
+    "url": "https://github.com/ANIname/debug-console/issues"
+  },
+  "homepage": "https://github.com/ANIname/debug-console#readme",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.7.3",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.7.4"
+  }
+}
