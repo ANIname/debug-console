@@ -1,7 +1,7 @@
 {
   "name": "debug-console",
   "description": "Log message if debug enabled",
-  "version": "1.0.0",
+  "version": "1.0.7",
   "keywords": [
     "debug",
     "console",
