@@ -25,6 +25,7 @@ const consoleDebugMethods: ConsoleDebug = {
 
 export default consoleDebugMethods
 
+// For CommonJS default export support
 export const assert         = consoleDebugMethods.assert
 export const log            = consoleDebugMethods.log
 export const info           = consoleDebugMethods.info
