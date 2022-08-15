@@ -12,7 +12,6 @@
   "scripts": {
     "build": "rimraf ./build && tsc"
   },
-  "prepublish": "npm run build",
   "engines": {
     "node": ">=16.10.0"
   },
